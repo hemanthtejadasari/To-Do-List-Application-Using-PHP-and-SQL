@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List Application</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>To-Do List</h2>
+    <!-- Form to add a new task -->
+    <form action="add_task.php" method="POST">
+        <input type="text" name="task" placeholder="Enter task..." required>
+        <button type="submit">Add Task</button>
+    </form>
+    <!-- List to display tasks -->
+    <ul>
+        <!-- Tasks will be displayed here -->
+    </ul>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
